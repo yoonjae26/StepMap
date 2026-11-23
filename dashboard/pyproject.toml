@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stepmap"
+version = "0.1.0"
+description = "StepMap — 보도블록 손상(파손·결손·이탈·분리) 탐지·단차 측정 결과를 지도 대시보드로 보여주는 도구"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["pyyaml>=6", "pillow>=10"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+stepmap = "stepmap.cli:main"
+
+[tool.setuptools]
+packages = ["stepmap"]

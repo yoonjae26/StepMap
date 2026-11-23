@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# models: GitHub Releases
+models/*.onnx
+models/*.engine
+*.pt
+
+# data and generated output
+data/
+runs/
+sessions/
+logs/
+out/
+dashboard/outputs/
+examples/**/dashboard.html
+examples/**/photos/
+robot/fonts/
+eval/

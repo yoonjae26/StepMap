@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320">
+  <title>StepMap</title>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0F3D22"/><stop offset="1" stop-color="#1F6B35"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="320" rx="28" fill="url(#bg)"/>
+  <!-- paving pattern -->
+  <g fill="#FFFFFF" opacity="0.06">
+    <rect x="860" y="40" width="120" height="56" rx="10"/><rect x="990" y="40" width="120" height="56" rx="10"/><rect x="1120" y="40" width="120" height="56" rx="10"/>
+    <rect x="800" y="106" width="120" height="56" rx="10"/><rect x="930" y="106" width="120" height="56" rx="10"/><rect x="1190" y="106" width="120" height="56" rx="10"/>
+    <rect x="860" y="172" width="120" height="56" rx="10"/><rect x="1120" y="172" width="120" height="56" rx="10"/>
+    <rect x="800" y="238" width="120" height="56" rx="10"/><rect x="930" y="238" width="120" height="56" rx="10"/><rect x="1060" y="238" width="120" height="56" rx="10"/>
+  </g>
+  <rect x="1100" y="40" width="130" height="60" rx="10" fill="#C7E89A" transform="rotate(-8 1165 70)"/>
+  <rect x="1120" y="238" width="120" height="56" rx="10" fill="#86C440" opacity="0.9"/>
+  <!-- logo mark -->
+  <g transform="translate(64 64) scale(0.75)">
+    <rect x="8" y="8" width="240" height="240" rx="56" fill="#14532D" stroke="#86C440" stroke-width="4"/>
+    <g fill="#86C440"><rect x="46" y="150" width="70" height="40" rx="8"/><rect x="124" y="150" width="86" height="40" rx="8"/><rect x="46" y="104" width="44" height="38" rx="8"/></g>
+    <rect x="98" y="92" width="112" height="40" rx="8" fill="#C7E89A" transform="rotate(-8 154 112)"/>
+    <path d="M214 196 V150" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
+    <path d="M204 160 L214 148 L224 160" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#B7E07A" stroke="#14532D" stroke-width="3"><circle cx="62" cy="56" r="13"/><circle cx="88" cy="56" r="13"/><circle cx="75" cy="78" r="13"/></g>
+  </g>
+  <text x="300" y="150" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', sans-serif" font-size="84" font-weight="800" fill="#FFFFFF">StepMap</text>
+  <text x="300" y="204" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', sans-serif" font-size="27" font-weight="600" fill="#C7E89A">보도블록 손상 탐지 · 단차 측정 로봇 (AI + 깊이 카메라)</text>
+  <text x="300" y="252" font-family="Pretendard, 'Noto Sans KR', 'Malgun Gothic', sans-serif" font-size="24" font-weight="500" fill="#FFFFFF" opacity="0.85">Unitree Go2 · RealSense D435i · SegFormer-B1</text>
+</svg>
